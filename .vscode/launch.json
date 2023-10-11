@@ -4,8 +4,27 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
-        
-    
+        {
+            "type": "java",
+            "name": "RecipeReader",
+            "request": "launch",
+            "mainClass": "RecipeReader",
+            "projectName": "coding-challlenge_8b5d03bf"
+        },
+        {
+            "type": "java",
+            "name": "MainReader",
+            "request": "launch",
+            "mainClass": "MainReader",
+            "projectName": "coding-challlenge_8b5d03bf"
+        },
+        {
+            "type": "java",
+            "name": "RecipeProcessor",
+            "request": "launch",
+            "mainClass": "RecipeProcessor",
+            "projectName": "coding-challlenge_8b5d03bf"
+        },
         {
             "type": "java",
             "name": "Current File",
@@ -18,7 +37,6 @@
             "request": "launch",
             "mainClass": "mainx",
             "projectName": "practical-coding-challenge_decfcab3",
-
             "args": "itworks"
         }
     ]
